@@ -1,5 +1,7 @@
 class PhotosController < ApplicationController
    before_action :authenticate_user!
+def new
+    @photo = Photo.new
 
   def create
     @place = Place.find(params[:place_id])
