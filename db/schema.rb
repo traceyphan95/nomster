@@ -30,7 +30,6 @@ ActiveRecord::Schema.define(version: 2019_06_20_172339) do
     t.text "caption"
     t.integer "user_id"
     t.integer "place_id"
-    t.text "photo_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "picture"
